@@ -1,0 +1,15 @@
+{
+  "nav": {
+    "home": "Home",
+    "experience": "Experience",
+    "projects": "Projects",
+    "skills": "Skills",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Hi, I'm Clément",
+    "subtitle": "Web Developer",
+    "description": "I'm a passionate web developer with expertise in creating modern, responsive web applications. With a strong foundation in JavaScript, React, and Node.js, I love turning complex problems into simple...",
+    "aboutMe": "About Me"
+  }
+}

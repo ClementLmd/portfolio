@@ -1,0 +1,15 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "experience": "Expérience",
+    "projects": "Projets",
+    "skills": "Compétences",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Bonjour, je suis Clément",
+    "subtitle": "Développeur Web",
+    "description": "Je suis un développeur web passionné avec une expertise en création d'applications web modernes et réactives. Avec une solide expérience en JavaScript, React et Node.js, j'aime transformer les problèmes complexes en solutions simples, élégantes et intuitives.",
+    "aboutMe": "À propos de moi"
+  }
+}
