@@ -1,8 +1,17 @@
-const Footer = () => {
+import { Dictionary } from "../i18n/config";
+
+type FooterProps = {
+  dictionary: Dictionary["footer"];
+};
+
+const Footer = ({ dictionary }: FooterProps) => {
   return (
     <footer className="bg-gray-800 text-white py-6">
       <div className="container mx-auto px-6 text-center">
-        <p>&copy; {new Date().getFullYear()} Your Name. All rights reserved.</p>
+        <p>
+          &copy; {new Date().getFullYear()} Clément Laumond -{" "}
+          {dictionary.allRightsReserved}
+        </p>
         <div className="mt-4">
           <a
             href="https://github.com/yourusername"
@@ -28,19 +37,10 @@ const Footer = () => {
           >
             LinkedIn
           </a>
-          <a
-            href="https://twitter.com/yourusername"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-gray-400 hover:text-white mx-2"
-          >
-            Twitter
-          </a>
         </div>
       </div>
     </footer>
-  )
-}
+  );
+};
 
-export default Footer
-
+export default Footer;

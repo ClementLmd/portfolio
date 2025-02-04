@@ -11,5 +11,19 @@
     "subtitle": "Web Developer",
     "description": "I'm a passionate web developer with expertise in creating modern, responsive web applications. With a strong foundation in JavaScript, React, and Node.js, I love turning complex problems into simple...",
     "aboutMe": "About Me"
+  },
+  "experience": {
+    "title": "Experience",
+    "description": "I'm a passionate web developer with expertise in creating modern, responsive web applications. With a strong foundation in JavaScript, React, and Node.js, I love turning complex problems into simple..."
+  },
+  "projects": {
+    "title": "Projects",
+    "description": "Here are some of my recent projects. Each project is an opportunity to learn and improve."
+  },
+  "skills": {
+    "title": "Skills"
+  },
+  "footer": {
+    "allRightsReserved": "All rights reserved"
   }
 }

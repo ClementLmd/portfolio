@@ -11,5 +11,19 @@
     "subtitle": "Développeur Web",
     "description": "Je suis un développeur web passionné avec une expertise en création d'applications web modernes et réactives. Avec une solide expérience en JavaScript, React et Node.js, j'aime transformer les problèmes complexes en solutions simples, élégantes et intuitives.",
     "aboutMe": "À propos de moi"
+  },
+  "experience": {
+    "title": "Expériences",
+    "description": "Je suis un développeur web passionné avec une expertise en création d'applications web modernes et réactives. Avec une solide expérience en JavaScript, React et Node.js, j'aime transformer les problèmes complexes en solutions simples, élégantes et intuitives."
+  },
+  "projects": {
+    "title": "Projets",
+    "description": "Voici quelques-uns de mes projets récents. Chaque projet est une opportunité pour apprendre et m'améliorer."
+  },
+  "skills": {
+    "title": "Compétences"
+  },
+  "footer": {
+    "allRightsReserved": "Tous droits réservés"
   }
 }

@@ -8,16 +8,18 @@ type HeroProps = {
 
 const Hero = ({ dictionary }: HeroProps) => {
   return (
-    <section className="bg-white py-20">
+    <section className=" py-10">
       <div className="container mx-auto px-6 flex flex-col md:flex-row items-center">
         <div className="md:w-1/2 text-center md:text-left mb-8 md:mb-0">
-          <Image
-            src="/profil_picture.jpg"
-            alt="Clément Lmd picture"
-            width={200}
-            height={200}
-            className="rounded-full mx-auto md:mx-0 mb-6"
-          />
+          <div className="flex justify-center md:justify-center mb-6">
+            <Image
+              src="/profil_picture.jpg"
+              alt="Clément Lmd picture"
+              width={200}
+              height={200}
+              className="rounded-full"
+            />
+          </div>
           <h1 className="text-4xl font-bold mb-2">{dictionary.title}</h1>
           <p className="text-xl mb-6">{dictionary.subtitle}</p>
           <div className="flex justify-center md:justify-start space-x-4">
@@ -46,13 +48,19 @@ const Hero = ({ dictionary }: HeroProps) => {
               href="https://www.malt.fr/profile/yourusername"
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-red-600 text-white p-2 rounded-full hover:bg-red-500 transition duration-300"
+              className="bg-white text-black p-2 rounded-full hover:bg-white-800 transition duration-300"
             >
-              <span className="font-bold text-sm">M</span>
+              <Image
+                src="/icons/malt.svg"
+                alt="Malt"
+                width={24}
+                height={24}
+                className="w-6 h-6"
+              />
             </a>
             <a
               href="mailto:clement.laumond@gmail.com"
-              className="bg-green-600 text-white p-2 rounded-full hover:bg-green-500 transition duration-300"
+              className="bg-white text-black p-2 rounded-full hover:bg-white-800 transition duration-300"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -73,7 +81,7 @@ const Hero = ({ dictionary }: HeroProps) => {
               href="/your-cv.pdf"
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-blue-600 text-white p-2 rounded-full hover:bg-blue-500 transition duration-300"
+              className="bg-white text-black p-2 rounded-full hover:bg-white-800 transition duration-300"
             >
               <FileText size={24} />
             </a>
@@ -81,7 +89,7 @@ const Hero = ({ dictionary }: HeroProps) => {
         </div>
         <div className="md:w-1/2">
           <h2 className="text-3xl font-bold mb-4">{dictionary.aboutMe}</h2>
-          <p className="text-lg text-gray-700 mb-6">{dictionary.description}</p>
+          <p className="text-lg mb-6">{dictionary.description}</p>
         </div>
       </div>
     </section>

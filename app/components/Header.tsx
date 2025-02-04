@@ -8,27 +8,21 @@ type HeaderProps = {
 
 const Header = ({ dictionary }: HeaderProps) => {
   return (
-    <header className="bg-white shadow-sm sticky top-0 z-10">
+    <header className="bg-gray-800 shadow-lg sticky top-0 z-10">
       <nav className="container mx-auto px-6 py-3 relative">
         <ul className="flex justify-center space-x-6">
           <li>
-            <Link
-              href="#experience"
-              className="text-gray-800 hover:text-blue-600"
-            >
+            <Link href="#experience" className="text-white hover:text-blue-400">
               {dictionary.experience}
             </Link>
           </li>
           <li>
-            <Link
-              href="#projects"
-              className="text-gray-800 hover:text-blue-600"
-            >
+            <Link href="#projects" className="text-white hover:text-blue-400">
               {dictionary.projects}
             </Link>
           </li>
           <li>
-            <Link href="#skills" className="text-gray-800 hover:text-blue-600">
+            <Link href="#skills" className="text-white hover:text-blue-400">
               {dictionary.skills}
             </Link>
           </li>

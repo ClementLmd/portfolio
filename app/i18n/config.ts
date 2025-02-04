@@ -16,4 +16,18 @@ export interface Dictionary {
     skills: string;
     contact: string;
   };
+  experience: {
+    title: string;
+    description: string;
+  };
+  projects: {
+    title: string;
+    description: string;
+  };
+  skills: {
+    title: string;
+  };
+  footer: {
+    allRightsReserved: string;
+  };
 }

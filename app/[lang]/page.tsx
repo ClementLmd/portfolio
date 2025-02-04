@@ -16,15 +16,15 @@ export default async function Home({
   const dictionary = await getDictionary(lang);
 
   return (
-    <div className="min-h-screen bg-gray-100">
+    <div className="min-h-screen bg-gray-900">
       <Header dictionary={dictionary.nav} />
       <main>
         <Hero dictionary={dictionary.hero} />
-        <Experience />
-        <Projects />
-        <Skills />
+        <Experience dictionary={dictionary.experience} />
+        <Projects dictionary={dictionary.projects} />
+        <Skills dictionary={dictionary.skills} />
       </main>
-      <Footer />
+      <Footer dictionary={dictionary.footer} />
     </div>
   );
 }

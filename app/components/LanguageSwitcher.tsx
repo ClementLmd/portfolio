@@ -19,7 +19,7 @@ export default function LanguageSwitcher() {
         <button
           key={locale}
           onClick={() => handleLanguageChange(locale)}
-          className="px-2 py-1 rounded hover:bg-gray-200"
+          className="px-2 py-1 rounded text-white hover:text-blue-400"
         >
           {locale.toUpperCase()}
         </button>
