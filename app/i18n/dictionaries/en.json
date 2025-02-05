@@ -8,17 +8,50 @@
   },
   "hero": {
     "title": "Hi, I'm Clément",
-    "subtitle": "Web Developer",
-    "description": "I'm a passionate web developer with expertise in creating modern, responsive web applications. With a strong foundation in JavaScript, React, and Node.js, I love turning complex problems into simple...",
+    "subtitle": "Fullstack Web Developer - Rouen, France",
+    "description": "Web developper who can do both frontend and backend, as long as it works and is scalable.",
     "aboutMe": "About Me"
   },
   "experience": {
-    "title": "Experience",
-    "description": "I'm a passionate web developer with expertise in creating modern, responsive web applications. With a strong foundation in JavaScript, React, and Node.js, I love turning complex problems into simple..."
+    "title": "Experiences",
+    "experiences": [
+      {
+        "title": "Freelance - Fullstack web developer",
+        "company": "Immersion Facile",
+        "period": "September - October 2024",
+        "description": "Help contribute to the development of the Immersion Facile website.",
+        "stack": ["React", "TypeScript", "Node.js", "Express", "PostgreSQL"],
+        "website": "https://immersion-facile.beta.gouv.fr/"
+      },
+      {
+        "title": "Internship - Fullstack web developer",
+        "company": "Immersion Facile",
+        "period": "July - August 2024",
+        "description": "Help contribute to the development of the Immersion Facile website.",
+        "stack": ["React", "TypeScript", "Node.js", "Express", "PostgreSQL"],
+        "website": "https://immersion-facile.beta.gouv.fr/"
+      }
+    ]
   },
   "projects": {
     "title": "Projects",
-    "description": "Here are some of my recent projects. Each project is an opportunity to learn and improve."
+    "description": "Here are some of my recent projects. Each project is an opportunity to learn and improve.",
+    "projects": [
+      {
+        "title": "CryptoDashboard",
+        "description": "Dashboard to track your crypto investments on Solana.",
+        "image": "/logo-crypto-dashboard.webp",
+        "stack": ["Next.js", "TypeScript", "Express", "MongoDB"],
+        "website": "https://crypto-dashboard-front-phi.vercel.app/"
+      },
+      {
+        "title": "Landing page",
+        "description": "Landing page for an insurance company.",
+        "image": "/logo-jpinsurance-2.png",
+        "stack": ["Next.js"],
+        "website": "https://www.jpassurances.fr/"
+      }
+    ]
   },
   "skills": {
     "title": "Skills"

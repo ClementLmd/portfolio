@@ -10,7 +10,7 @@ const Header = ({ dictionary }: HeaderProps) => {
   return (
     <header className="bg-gray-800 shadow-lg sticky top-0 z-10">
       <nav className="container mx-auto px-6 py-3 relative">
-        <ul className="flex justify-center space-x-6">
+        <ul className="flex justify-center space-x-4">
           <li>
             <Link href="#experience" className="text-white hover:text-blue-400">
               {dictionary.experience}

@@ -7,18 +7,51 @@
     "contact": "Contact"
   },
   "hero": {
-    "title": "Bonjour, je suis Clément",
-    "subtitle": "Développeur Web",
-    "description": "Je suis un développeur web passionné avec une expertise en création d'applications web modernes et réactives. Avec une solide expérience en JavaScript, React et Node.js, j'aime transformer les problèmes complexes en solutions simples, élégantes et intuitives.",
+    "title": "Clément Laumond",
+    "subtitle": "Développeur Web Fullstack - Rouen & à distance",
+    "description": "Développeur web passionné par la création d'applications web fonctionnelles, performantes et scalables.",
     "aboutMe": "À propos de moi"
   },
   "experience": {
     "title": "Expériences",
-    "description": "Je suis un développeur web passionné avec une expertise en création d'applications web modernes et réactives. Avec une solide expérience en JavaScript, React et Node.js, j'aime transformer les problèmes complexes en solutions simples, élégantes et intuitives."
+    "experiences": [
+      {
+        "title": "Développeur web fullstack - Freelance",
+        "company": "Immersion Facile",
+        "period": "Septembre - Octobre 2024",
+        "description": "Contribuer au développement du site web Immersion Facile.",
+        "stack": ["React", "TypeScript", "Node.js", "Express", "PostgreSQL"],
+        "website": "https://immersion-facile.beta.gouv.fr/"
+      },
+      {
+        "title": "Développeur web fullstack - Stagiaire",
+        "company": "Immersion Facile",
+        "period": "Juillet - Août 2024",
+        "description": "Contribuer au développement du site web Immersion Facile.",
+        "stack": ["React", "TypeScript", "Node.js", "Express", "PostgreSQL"],
+        "website": "https://immersion-facile.beta.gouv.fr/"
+      }
+    ]
   },
   "projects": {
     "title": "Projets",
-    "description": "Voici quelques-uns de mes projets récents. Chaque projet est une opportunité pour apprendre et m'améliorer."
+    "description": "Voici quelques-uns de mes projets récents. Chaque projet est une opportunité pour apprendre et m'améliorer.",
+    "projects": [
+      {
+        "title": "CryptoDashboard",
+        "description": "Tableau de bord pour suivre vos investissements crypto sur Solana.",
+        "image": "/logo-crypto-dashboard.webp",
+        "stack": ["Next.js", "TypeScript", "Express", "MongoDB"],
+        "website": "https://crypto-dashboard-front-phi.vercel.app/"
+      },
+      {
+        "title": "Site vitrine",
+        "description": "Site vitrine pour un cabinet d'assurances.",
+        "image": "/logo-jpinsurance-2.png",
+        "stack": ["Next.js"],
+        "website": "https://www.jpassurances.fr/"
+      }
+    ]
   },
   "skills": {
     "title": "Compétences"

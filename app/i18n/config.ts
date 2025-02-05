@@ -18,11 +18,25 @@ export interface Dictionary {
   };
   experience: {
     title: string;
-    description: string;
+    experiences: {
+      title: string;
+      company: string;
+      period: string;
+      description: string;
+      stack: string[];
+      website?: string;
+    }[];
   };
   projects: {
     title: string;
     description: string;
+    projects: {
+      title: string;
+      description: string;
+      image: string;
+      stack: string[];
+      website?: string;
+    }[];
   };
   skills: {
     title: string;
