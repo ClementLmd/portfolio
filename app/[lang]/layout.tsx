@@ -1,11 +1,6 @@
 import type { Metadata } from "next";
 import { type LocaleType } from "../i18n/config";
 
-type Props = {
-  children: React.ReactNode;
-  params: { lang: LocaleType };
-};
-
 export async function generateMetadata({
   params,
 }: {
@@ -66,6 +61,10 @@ export async function generateMetadata({
   };
 }
 
-export default function Layout({ children }: Props) {
+export default async function Layout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   return <>{children}</>;
 }
