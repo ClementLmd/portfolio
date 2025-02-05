@@ -1,20 +1,21 @@
 import "./globals.css";
 import { Inter } from "next/font/google";
-import { defaultLocale, locales } from "./i18n/config";
+import { locales, type LocaleType } from "./i18n/config";
 
 const inter = Inter({ subsets: ["latin"] });
+
+type Props = {
+  children: React.ReactNode;
+  params: { lang: LocaleType };
+};
 
 export async function generateStaticParams() {
   return locales.map((locale) => ({ lang: locale }));
 }
 
-export default async function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+export default function RootLayout({ children, params }: Props) {
   return (
-    <html lang={defaultLocale}>
+    <html lang={params.lang}>
       <body className={inter.className}>{children}</body>
     </html>
   );

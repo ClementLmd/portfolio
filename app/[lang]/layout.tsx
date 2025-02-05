@@ -2,12 +2,16 @@ import type { Metadata } from "next";
 import { type LocaleType } from "../i18n/config";
 
 type Props = {
+  children: React.ReactNode;
   params: { lang: LocaleType };
 };
 
-export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const { lang } = await params;
-  const isFrench = lang === "fr";
+export async function generateMetadata({
+  params,
+}: {
+  params: { lang: LocaleType };
+}): Promise<Metadata> {
+  const isFrench = params.lang === "fr";
 
   return {
     metadataBase: new URL(
@@ -62,6 +66,6 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   };
 }
 
-export default function Layout({ children }: { children: React.ReactNode }) {
+export default function Layout({ children }: Props) {
   return <>{children}</>;
 }
