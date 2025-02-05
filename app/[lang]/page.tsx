@@ -1,19 +1,19 @@
-import { getDictionary } from "../i18n/get-dictionary";
-import type { LocaleType } from "../i18n/config";
-import Header from "../components/Header";
+import { type LocaleType } from "../i18n/config";
 import Hero from "../components/Hero";
-import Experience from "../components/Experience";
-import Projects from "../components/Projects";
 import Skills from "../components/Skills";
+import Projects from "../components/Projects";
+import { getDictionary } from "../i18n/get-dictionary";
+import Header from "../components/Header";
+import Experience from "../components/Experience";
 import Footer from "../components/Footer";
 
-export default async function Home({
-  params,
-}: {
-  params: { lang: LocaleType };
-}) {
-  const { lang } = await params;
-  const dictionary = await getDictionary(lang);
+interface PageProps {
+  params: Promise<{ lang: LocaleType }>;
+}
+
+export default async function Page({ params }: PageProps) {
+  const resolvedParams = await params;
+  const dictionary = await getDictionary(resolvedParams.lang);
 
   return (
     <div className="min-h-screen bg-gray-900">
