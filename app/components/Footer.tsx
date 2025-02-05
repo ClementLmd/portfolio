@@ -14,7 +14,7 @@ const Footer = ({ dictionary }: FooterProps) => {
         </p>
         <div className="mt-4">
           <a
-            href="https://github.com/yourusername"
+            href="https://github.com/ClementLmd"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-400 hover:text-white mx-2"
@@ -22,7 +22,7 @@ const Footer = ({ dictionary }: FooterProps) => {
             GitHub
           </a>
           <a
-            href="https://www.malt.fr/profile/yourusername"
+            href="https://www.malt.fr/profile/clementlaumond"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-400 hover:text-white mx-2"
@@ -30,7 +30,7 @@ const Footer = ({ dictionary }: FooterProps) => {
             Malt
           </a>
           <a
-            href="https://linkedin.com/in/yourusername"
+            href="https://www.linkedin.com/in/clementlmd"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-400 hover:text-white mx-2"
