@@ -1,5 +1,6 @@
 import { getMetadata } from "../config/metadata";
 import { LocaleType } from "../i18n/config";
+import { env } from "../config/env";
 
 interface LayoutProps {
   params: Promise<{ lang: LocaleType }>;
@@ -17,9 +18,17 @@ export async function generateMetadata({
     robots: {
       index: true,
       follow: true,
+      nocache: true,
       googleBot: {
         index: true,
         follow: true,
+      },
+    },
+    alternates: {
+      canonical: `${env.baseUrl}/${resolvedParams.lang}`,
+      languages: {
+        en: `${env.baseUrl}/en`,
+        fr: `${env.baseUrl}/fr`,
       },
     },
   };
