@@ -12,7 +12,17 @@ export async function generateMetadata({
   params: Promise<{ lang: LocaleType }>;
 }) {
   const resolvedParams = await params;
-  return getMetadata(resolvedParams.lang);
+  return {
+    ...getMetadata(resolvedParams.lang),
+    robots: {
+      index: true,
+      follow: true,
+      googleBot: {
+        index: true,
+        follow: true,
+      },
+    },
+  };
 }
 
 export default async function Layout({ children, params }: LayoutProps) {

@@ -1,5 +1,6 @@
 import { Metadata } from "next";
 import { LocaleType } from "../i18n/config";
+import { env } from "./env";
 
 export function getMetadata(lang: LocaleType): Metadata {
   const isFrench = lang === "fr";
@@ -29,10 +30,20 @@ export function getMetadata(lang: LocaleType): Metadata {
           "Node.js",
           "TypeScript",
         ],
+    robots: {
+      index: true,
+      follow: true,
+      nocache: true,
+      googleBot: {
+        index: true,
+        follow: true,
+        noimageindex: true,
+      },
+    },
     openGraph: {
       type: "website",
       locale: isFrench ? "fr_FR" : "en_US",
-      url: "https://your-domain.com",
+      url: env.baseUrl,
       siteName: isFrench
         ? "Portfolio de Clément Laumond"
         : "Clément Laumond Portfolio",
