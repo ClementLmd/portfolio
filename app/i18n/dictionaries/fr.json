@@ -17,7 +17,7 @@
     "experiences": [
       {
         "title": "Développeur web fullstack - Freelance",
-        "company": "Immersion Facile",
+        "company": "Immersion Facilitée",
         "period": "Septembre - Octobre 2024",
         "description": "Contribuer au développement du site web Immersion Facile.",
         "stack": ["React", "TypeScript", "Node.js", "Express", "PostgreSQL"],
@@ -25,7 +25,7 @@
       },
       {
         "title": "Développeur web fullstack - Stagiaire",
-        "company": "Immersion Facile",
+        "company": "Immersion Facilitée",
         "period": "Juillet - Août 2024",
         "description": "Contribuer au développement du site web Immersion Facile.",
         "stack": ["React", "TypeScript", "Node.js", "Express", "PostgreSQL"],
