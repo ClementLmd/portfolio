@@ -9,7 +9,7 @@
   "hero": {
     "title": "Clément Laumond",
     "subtitle": "Développeur Web Fullstack - Rouen & à distance",
-    "description": "Développeur web passionné par la création d'applications web fonctionnelles, performantes et scalables avec Next.js, React, Node.js, et TypeScript.",
+    "description": "Développeur passionné par la création d'applications web fonctionnelles, performantes et scalables avec Next.js, React, Node.js, et TypeScript.",
     "aboutMe": "À propos de moi"
   },
   "experience": {
@@ -50,6 +50,12 @@
         "image": "/logo-jpinsurance-2.png",
         "stack": ["Next.js"],
         "website": "https://www.jpassurances.fr/"
+      },
+      {
+        "title": "Jeu de gestion de ressources",
+        "description": "Jeu de gestion sur navigateur de type Ogame. (en développement)",
+        "image": "/logo-game-management.webp",
+        "stack": ["Next.js", "TypeScript", "Express", "PostgreSQL"]
       }
     ]
   },

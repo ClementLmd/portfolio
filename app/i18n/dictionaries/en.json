@@ -9,7 +9,7 @@
   "hero": {
     "title": "Hi, I'm Clément",
     "subtitle": "Fullstack Web Developer - Rouen, France",
-    "description": "Web developper passionate about creating functional, performant and scalable web applications with Next.js, React, Node.js, and TypeScript.",
+    "description": "Developper passionate about creating functional, performant and scalable web applications with Next.js, React, Node.js, and TypeScript.",
     "aboutMe": "About Me"
   },
   "experience": {
@@ -50,6 +50,12 @@
         "image": "/logo-jpinsurance-2.png",
         "stack": ["Next.js"],
         "website": "https://www.jpassurances.fr/"
+      },
+      {
+        "title": "Resource management game",
+        "description": "Resource management browser game similar to Ogame. (in development)",
+        "image": "/logo-game-management.webp",
+        "stack": ["Next.js", "TypeScript", "Express", "PostgreSQL"]
       }
     ]
   },
