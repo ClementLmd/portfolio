@@ -55,7 +55,7 @@ export function getMetadata(lang: LocaleType): Metadata {
         : "Full Stack Web Developer specialized in React, Next.js, and Node.js. View my projects and experience.",
       images: [
         {
-          url: "/images/og-image.jpg",
+          url: "/og-image.png",
           width: 1200,
           height: 630,
           alt: isFrench
