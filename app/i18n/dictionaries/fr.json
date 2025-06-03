@@ -56,6 +56,20 @@
         "description": "Jeu de gestion sur navigateur de type Ogame. (en développement)",
         "image": "/logo-game-management.webp",
         "stack": ["Next.js", "TypeScript", "Express", "PostgreSQL"]
+      },
+      {
+        "title": "Jeu de mémoire",
+        "description": "Jeu de mémoire avec un design simple et un choix de thème.",
+        "image": "/memorygame.png",
+        "stack": ["Next.js", "TypeScript"],
+        "website": "https://memory-game-sepia-six-69.vercel.app/"
+      },
+      {
+        "title": "Suivi quotidien d'activités",
+        "description": "Suivi quotidien d'activités personnalisables",
+        "image": "/daily-recap.png",
+        "stack": ["Next.js", "TypeScript", "Express", "MongoDB", "TailwindCSS"],
+        "website": "https://daily-recap-front.vercel.app/"
       }
     ]
   },

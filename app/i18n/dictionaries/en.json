@@ -56,6 +56,20 @@
         "description": "Resource management browser game similar to Ogame. (in development)",
         "image": "/logo-game-management.webp",
         "stack": ["Next.js", "TypeScript", "Express", "PostgreSQL"]
+      },
+      {
+        "title": "Memory card game",
+        "description": "Memory card game with a simple design and theme selection.",
+        "image": "/memorygame.png",
+        "stack": ["Next.js", "TypeScript"],
+        "website": "https://memory-game-sepia-six-69.vercel.app/"
+      },
+      {
+        "title": "Daily activity tracker",
+        "description": "Daily activity tracker with customizable activities",
+        "image": "/daily-recap.png",
+        "stack": ["Next.js", "TypeScript", "Express", "MongoDB", "TailwindCSS"],
+        "website": "https://daily-recap-front.vercel.app/"
       }
     ]
   },
